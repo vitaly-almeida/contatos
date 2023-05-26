@@ -29,15 +29,16 @@ ul{
     border-radius: 10%;
 }
 
-li img{
+/* li img{
     width: 35px;
-}
+} */
 
 li{
+    text-align: center;
     background-image: linear-gradient(to left, #22727e1f, #8f9f580e);
     font-size: 1.5em;
     list-style: none;
-    padding: 5px 30px 5px 30px;
+    padding: 10px 60px 10px 60px;
     margin: 5px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
@@ -45,10 +46,11 @@ li{
 }
 
 li:hover{
+    text-align: center;
     background-image: linear-gradient(to left, #22727e70, #8f9f5848);
     font-size: 1.5em;
     list-style: none;
-    padding: 5px 30px 5px 30px;
+    padding: 10px 60px 10px 60px;
     margin: 5px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
@@ -56,7 +58,7 @@ li:hover{
 }
 
 a{
-    color: rgba(255, 255, 255, 0.425);
+    color: rgba(255, 255, 255, 0.884);
     text-decoration: none;
 }
 
